@@ -1,8 +1,8 @@
 package tfdiags
 
-import (
-	"encoding/gob"
-)
+//import (
+//	"encoding/gob"
+//)
 
 type rpcFriendlyDiag struct {
 	Severity_ Severity
@@ -54,6 +54,6 @@ func (d rpcFriendlyDiag) FromExpr() *FromExpr {
 	return nil
 }
 
-func init() {
-	gob.Register((*rpcFriendlyDiag)(nil))
-}
+//func init() {
+//	gob.Register((*rpcFriendlyDiag)(nil))
+//}
