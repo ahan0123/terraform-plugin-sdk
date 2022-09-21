@@ -2,6 +2,8 @@ module github.com/hashicorp/terraform-plugin-sdk/v2
 
 go 1.16
 
+replace github.com/hashicorp/go-getter => github.com/hashicorp/go-getter v1.6.2
+
 require (
 	cloud.google.com/go v0.61.0 // indirect
 	github.com/agext/levenshtein v1.2.2 // indirect
